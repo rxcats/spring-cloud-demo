@@ -23,7 +23,14 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>11</java.version>
         <spring-cloud.version>Finchley.SR1</spring-cloud.version>
+        <maven.test.skip>true</maven.test.skip>
     </properties>
+
+    <modules>
+        <module>eureka-server</module>
+        <module>greetings-service</module>
+        <module>spring-cloud-zuul</module>
+    </modules>
 
     <dependencies>
         <dependency>
