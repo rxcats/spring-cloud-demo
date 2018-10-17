@@ -1,0 +1,12 @@
+## call by router
+GET http://localhost:8081/greetings/hi/java
+authorization: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Mzk3OTY0MjUsImp0aSI6InVzZXIjMSIsIm5vdyI6MTUzOTczNjQyNTU2N30.VJMmec486JGewC1SljrIByeq3HR29ONDr3ANS1TVRu4
+
+###
+
+
+## direct call
+GET http://localhost:8091/hi/java
+authorization: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Mzk3OTY0MjUsImp0aSI6InVzZXIjMSIsIm5vdyI6MTUzOTczNjQyNTU2N30.VJMmec486JGewC1SljrIByeq3HR29ONDr3ANS1TVRu4
+
+###

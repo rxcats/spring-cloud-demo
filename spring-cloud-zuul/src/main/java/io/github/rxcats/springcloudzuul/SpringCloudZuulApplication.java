@@ -13,11 +13,6 @@ import com.netflix.zuul.ZuulFilter;
 @SpringBootApplication
 public class SpringCloudZuulApplication {
 
-    @Bean
-    ZuulFilter sampleFilter() {
-        return new SampleFilter();
-    }
-
     public static void main(String[] args) {
         SpringApplication.run(SpringCloudZuulApplication.class, args);
     }
